@@ -2,7 +2,7 @@
   <a href="./README.md">English</a> | <strong>简体中文</strong>
 </p>
 
-# huangyihe-skills
+# newtype-skills
 
 一套 AI 提示词技能集，涵盖分析、写作、事实核查、编辑和访谈。这些技能是基于方法论的提示词，可以与任何 AI 助手配合使用（ChatGPT、Claude、Gemini 等）。
 
