@@ -2,7 +2,7 @@
   <strong>English</strong> | <a href="./README.zh-cn.md">简体中文</a>
 </p>
 
-# huangyihe-skills
+# newtype-skills
 
 A collection of AI prompt skills for analysis, writing, fact-checking, editing, and interviewing. These skills are methodology-driven prompts that can be used with any AI assistant (ChatGPT, Claude, Gemini, etc.).
 
