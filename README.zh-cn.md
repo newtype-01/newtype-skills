@@ -4,7 +4,7 @@
 
 # newtype-skills
 
-一套 AI 提示词技能集，涵盖分析、写作、事实核查、编辑和访谈。这些技能是基于方法论的提示词，可以与任何 AI 助手配合使用（ChatGPT、Claude、Gemini 等）。
+一套 AI 提示词技能集，涵盖分析、写作、事实核查、编辑、访谈、内容工作流编排和 Obsidian 知识库操作。这些技能是基于方法论的提示词，可以与任何 AI 助手配合使用（ChatGPT、Claude、Gemini 等）。
 
 ---
 
@@ -26,6 +26,8 @@
 | **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | 系统化核查：声明提取、来源可信度、结果标注 | 内容审核、来源验证、准确性保障 |
 | **[Super Editor](./skills/super-editor/SKILL.md)** | 四层编辑法：结构 → 段落 → 句子 → 词语 | 草稿润色、可读性提升、一致性检查 |
 | **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | 对话技巧：开放式提问、5 Whys、苏格拉底法 | 头脑风暴、需求挖掘、深度探索 |
+| **[Super Workflow](./skills/super-workflow/SKILL.md)** | 标准先行的内容生产工作流，带硬性质量门控 | Newsletter、报告、长文、分阶段内容生产 |
+| **[Super Obsidian](./skills/super-obsidian/SKILL.md)** | Obsidian CLI 优先的搜索、阅读与笔记管理操作 | 知识库检索、日记更新、反链梳理、笔记创建与维护 |
 
 ---
 
@@ -44,7 +46,7 @@
 
 1. 将仓库克隆到 `~/.claude/skills/` 或 `.opencode/skill/`：
    ```bash
-   git clone https://github.com/newtype-01/huangyihe-skills.git ~/.claude/skills/huangyihe-skills
+   git clone https://github.com/newtype-01/newtype-skills.git ~/.claude/skills/newtype-skills
    ```
 
 2. 使用 `/skill` 命令加载：
@@ -157,6 +159,40 @@
 - "用苏格拉底法帮我思考这个产品想法"
 - "访谈我，了解我真正的需求"
 - "挑战我对这个商业计划的假设"
+
+---
+
+### Super Workflow（超级工作流）
+
+**最适合**：端到端内容生产、多步骤写作任务、带质量门控的发布流程
+
+**特点**：
+- 写作前先过验收标准这道硬门槛
+- 8 步流程：标准 → 选题 → 大纲 → 写作 → 审稿 → 诊断 → 终检 → 交付
+- 内置防合理化检查，防止跳过质量门控
+- 明确 Writer / Editor 的分阶段交接与校验规则
+
+**示例提问**：
+- "帮我从零产出一期 newsletter，并设置明确的质量门槛"
+- "先定义验收标准，再写这篇行业报告"
+- "按完整工作流推进这篇长文"
+
+---
+
+### Super Obsidian（超级 Obsidian）
+
+**最适合**：在 Obsidian vault 中搜索、阅读、创建和管理笔记
+
+**特点**：
+- CLI 优先：搜索时用 `obsidian search`，不要用 `grep` / `rg` 遍历 vault
+- 覆盖搜索、读取、创建、追加、日记、属性、工作区等命令参考
+- 提供笔记总结、日记更新、反链探索等典型工作流
+- 明确哪些场景才应该回退到直接操作文件系统
+
+**示例提问**：
+- "在我的 Obsidian vault 里搜索和项目规划相关的笔记"
+- "把今天的会议总结追加到今日日记"
+- "找出孤立笔记并帮我整理"
 
 ---
 

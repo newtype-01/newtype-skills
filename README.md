@@ -4,7 +4,7 @@
 
 # newtype-skills
 
-A collection of AI prompt skills for analysis, writing, fact-checking, editing, and interviewing. These skills are methodology-driven prompts that can be used with any AI assistant (ChatGPT, Claude, Gemini, etc.).
+A collection of AI prompt skills for analysis, writing, fact-checking, editing, interviewing, workflow orchestration, and Obsidian knowledge-base operations. These skills are methodology-driven prompts that can be used with any AI assistant (ChatGPT, Claude, Gemini, etc.).
 
 ---
 
@@ -26,6 +26,8 @@ A collection of AI prompt skills for analysis, writing, fact-checking, editing, 
 | **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | Systematic verification: claim extraction, source credibility, annotation | Content review, source validation, accuracy assurance |
 | **[Super Editor](./skills/super-editor/SKILL.md)** | 4-layer editing: structure → paragraph → sentence → word | Draft polishing, readability improvement, consistency |
 | **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | Dialogue techniques: open questions, 5 whys, Socratic method | Brainstorming, requirement gathering, deep exploration |
+| **[Super Workflow](./skills/super-workflow/SKILL.md)** | Standards-first content production workflow with hard quality gates | Newsletters, reports, long-form articles, multi-step content pipelines |
+| **[Super Obsidian](./skills/super-obsidian/SKILL.md)** | CLI-first Obsidian vault operations for search, reading, and note management | Vault search, daily notes, backlinks, note creation, knowledge-base maintenance |
 
 ---
 
@@ -44,7 +46,7 @@ If you're using [OpenCode](https://opencode.ai) or Claude Code, you can load the
 
 1. Clone this repo to `~/.claude/skills/` or `.opencode/skill/`:
    ```bash
-   git clone https://github.com/newtype-01/huangyihe-skills.git ~/.claude/skills/huangyihe-skills
+   git clone https://github.com/newtype-01/newtype-skills.git ~/.claude/skills/newtype-skills
    ```
 
 2. Use the `/skill` command to load:
@@ -157,6 +159,40 @@ You can also add these prompts to:
 - "Help me think through this product idea using Socratic method"
 - "Interview me to understand my real requirements"
 - "Challenge my assumptions about this business plan"
+
+---
+
+### Super Workflow
+
+**Best for**: End-to-end content production, multi-step writing tasks, quality-gated publishing
+
+**Features**:
+- Standards-first hard gate before drafting
+- 8-step pipeline: standards → ideation → outline → drafting → review → diagnosis → final verification → delivery
+- Anti-rationalization checks to prevent skipping quality gates
+- Writer/editor handoff rules with stage-by-stage validation
+
+**Example prompts**:
+- "Help me produce a newsletter from scratch with explicit quality gates"
+- "Define acceptance criteria before drafting this industry report"
+- "Run a full workflow for this long-form article"
+
+---
+
+### Super Obsidian
+
+**Best for**: Searching, reading, creating, and managing notes in an Obsidian vault
+
+**Features**:
+- CLI-first rule: use `obsidian search` instead of `grep`/`rg` for vault search
+- Command reference for search, read, create, append, daily notes, properties, and workspace operations
+- Typical workflows for summarizing notes, updating daily logs, and exploring backlinks
+- Clear fallback rules for when direct filesystem access is acceptable
+
+**Example prompts**:
+- "Search my Obsidian vault for notes about project planning"
+- "Append today's meeting summary to my daily note"
+- "Find orphan notes and help me organize them"
 
 ---
 
