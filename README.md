@@ -21,12 +21,13 @@ A collection of AI prompt skills for analysis, writing, fact-checking, editing, 
 
 | Skill | Description | Use Cases |
 |-------|-------------|-----------|
-| **[Super Analyst](./skills/super-analyst/SKILL.md)** | 12 analysis frameworks + systematic research methodology | Strategic analysis, competitive research, investment decisions, root cause diagnosis |
-| **[Super Writer](./skills/super-writer/SKILL.md)** | 6 writing methodologies (W.R.I.T.E, AIDA, Storytelling, etc.) | Blog posts, marketing copy, brand stories, social media content |
-| **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | Systematic verification: claim extraction, source credibility, annotation | Content review, source validation, accuracy assurance |
-| **[Super Editor](./skills/super-editor/SKILL.md)** | 4-layer editing: structure → paragraph → sentence → word | Draft polishing, readability improvement, consistency |
-| **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | Dialogue techniques: open questions, 5 whys, Socratic method | Brainstorming, requirement gathering, deep exploration |
-| **[Super Workflow](./skills/super-workflow/SKILL.md)** | Standards-first content production workflow with hard quality gates | Newsletters, reports, long-form articles, multi-step content pipelines |
+| **[Super Analyst](./skills/super-analyst/SKILL.md)** | Decision analysis, structured research, and framework selection | Strategic analysis, competitive research, investment decisions, root cause diagnosis |
+| **[Super Writer](./skills/super-writer/SKILL.md)** | Content drafting with lightweight methodology and style control | Blog posts, marketing copy, brand stories, social media content |
+| **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | Claim extraction, verification, source assessment, and corrections | Content review, source validation, accuracy assurance |
+| **[Super Editor](./skills/super-editor/SKILL.md)** | Edit existing content and explain material changes | Draft polishing, readability improvement, consistency |
+| **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | Thought clarification, requirement discovery, and Socratic questioning | Brainstorming, requirement gathering, deep exploration |
+| **[Super Workflow](./skills/super-workflow/SKILL.md)** | Scaled content workflow with quality gates for non-trivial work | Newsletters, reports, long-form articles, multi-step content pipelines |
+| **[Super Workbench](./skills/super-workbench/SKILL.md)** | Skill routing, task checkpoint, restore, and report workbench | Choosing skills, resuming work, task reports, multi-skill handoff |
 | **[Super Obsidian](./skills/super-obsidian/SKILL.md)** | CLI-first Obsidian vault operations for search, reading, and note management | Vault search, daily notes, backlinks, note creation, knowledge-base maintenance |
 
 ---
@@ -71,6 +72,7 @@ You can also add these prompts to:
 
 **Features**:
 - 3-tier complexity detection (simple → 1 framework → combined frameworks)
+- Conclusion-first execution rules and clear separation between facts, inferences, and opinions
 - 12 analysis frameworks with step-by-step guides:
   - SWOT, Porter's Five Forces, Cost-Benefit
   - First Principles, 5 Whys, Design Thinking
@@ -90,6 +92,7 @@ You can also add these prompts to:
 **Best for**: Content creation, copywriting, storytelling
 
 **Features**:
+- Minimal clarification rules: ask only when missing information blocks a good result
 - 6 writing methodologies:
   - **W.R.I.T.E**: Write → Research → Ideate → Target → Enhance
   - **AIDA**: Attention → Interest → Desire → Action
@@ -116,6 +119,7 @@ You can also add these prompts to:
 - Source credibility hierarchy (6 levels)
 - Verification methods for data, quotes, and events
 - Annotation system: ✅ verified, ⚠️ partial, ❓ unverifiable, ❌ incorrect, 🔍 needs more
+- Corrected wording for problematic claims
 
 **Example prompts**:
 - "Fact-check this article and annotate each claim"
@@ -129,6 +133,7 @@ You can also add these prompts to:
 **Best for**: Draft polishing, readability improvement, consistency checks
 
 **Features**:
+- Delivery modes: edited draft, issue list, edit report, or style rewrite depending on the request
 - 4-layer editing methodology:
   1. **Structure**: Overall architecture, chapter order, logic flow
   2. **Paragraph**: Coherence, transitions, information density
@@ -149,6 +154,7 @@ You can also add these prompts to:
 **Best for**: Brainstorming, requirement gathering, deep exploration
 
 **Features**:
+- First response protocol: mirror the unclear idea, then ask one key question
 - Question types: open/closed, clarifying, probing, challenging, summarizing
 - 4-phase dialogue: ice-breaking → open exploration → deep digging → summary
 - Socratic techniques: concept clarification, assumption questioning, consequence exploration
@@ -168,6 +174,7 @@ You can also add these prompts to:
 
 **Features**:
 - Standards-first hard gate before drafting
+- Complexity scaling for micro, small, medium/large, and high-risk content tasks
 - 8-step pipeline: standards → ideation → outline → drafting → review → diagnosis → final verification → delivery
 - Anti-rationalization checks to prevent skipping quality gates
 - Writer/editor handoff rules with stage-by-stage validation
@@ -176,6 +183,23 @@ You can also add these prompts to:
 - "Help me produce a newsletter from scratch with explicit quality gates"
 - "Define acceptance criteria before drafting this industry report"
 - "Run a full workflow for this long-form article"
+
+---
+
+### Super Workbench
+
+**Best for**: Choosing the right skill, resuming previous work, producing task reports, and coordinating multi-skill handoffs
+
+**Features**:
+- Real-time skill catalog lookup before choosing a skill
+- Routing rules that prefer project/user-installed skills over generic built-ins
+- Task checkpoint restore and report generation
+- Clear boundaries: it chooses and coordinates skills, but does not replace the specialist skill
+
+**Example prompts**:
+- "Which skill should I use for this task?"
+- "Continue from where we left off"
+- "Summarize progress into a report"
 
 ---
 
