@@ -4,9 +4,9 @@
 
 ---
 
-## 三个Skill怎么配合
+## 思考三件套：三个Skill怎么配合
 
-super-interviewer、super-mirror、super-analyst各管一个阶段，按顺序接力：
+super-interviewer、super-mirror、super-analyst合称「思考三件套」，各管一个阶段，按顺序接力：
 
 1. **super-interviewer（本Skill）：还没想清楚。** 问题、目标、选项都还模糊。来回问答，一次一个问题。
 2. **super-mirror：想清楚了，但拿不定主意。** 选项已经摆出来，从理性、内心、盲区三个角度各写一段，摆出分歧，不替用户拍板。

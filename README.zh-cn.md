@@ -241,9 +241,9 @@
 
 ---
 
-## 想清楚、拿主意、下判断：三个Skill怎么配合
+## 思考三件套：想清楚、拿主意、下判断
 
-Super Interviewer、Super Mirror、Super Analyst各管思考的一个阶段，按顺序接力：
+Super Interviewer、Super Mirror、Super Analyst合称「思考三件套」，各管思考的一个阶段，按顺序接力：
 
 | 阶段 | 技能 | 做什么 |
 |------|------|--------|

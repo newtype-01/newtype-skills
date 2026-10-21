@@ -241,9 +241,9 @@ You can also add these prompts to:
 
 ---
 
-## How Super Interviewer, Super Mirror, and Super Analyst Work Together
+## Think Kit (思考三件套): How Super Interviewer, Super Mirror, and Super Analyst Work Together
 
-These three skills cover three stages of thinking and hand off to each other:
+Together these three skills form the **Think Kit (思考三件套)**. Each covers one stage of thinking, and they hand off to each other in order:
 
 | Stage | Skill | What it does |
 |-------|-------|--------------|
