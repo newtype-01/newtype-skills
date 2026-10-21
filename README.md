@@ -26,6 +26,7 @@ A collection of AI prompt skills for analysis, writing, fact-checking, editing, 
 | **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | Claim extraction, verification, source assessment, and corrections | Content review, source validation, accuracy assurance |
 | **[Super Editor](./skills/super-editor/SKILL.md)** | Edit existing content and explain material changes | Draft polishing, readability improvement, consistency |
 | **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | Thought clarification, requirement discovery, and Socratic questioning | Brainstorming, requirement gathering, deep exploration |
+| **[Super Mirror](./skills/super-mirror/SKILL.md)** | Three-perspective decision reflection: rational view, what you really care about, and blind spots | Hard choices, weighing options, "am I missing something?" checks |
 | **[Super Workflow](./skills/super-workflow/SKILL.md)** | Scaled content workflow with quality gates for non-trivial work | Newsletters, reports, long-form articles, multi-step content pipelines |
 | **[Super Workbench](./skills/super-workbench/SKILL.md)** | Skill routing, task checkpoint, restore, and report workbench | Choosing skills, resuming work, task reports, multi-skill handoff |
 | **[Super Obsidian](./skills/super-obsidian/SKILL.md)** | CLI-first Obsidian vault operations for search, reading, and note management | Vault search, daily notes, backlinks, note creation, knowledge-base maintenance |
@@ -168,6 +169,26 @@ You can also add these prompts to:
 
 ---
 
+### Super Mirror
+
+**Best for**: Hard decisions, choosing between options, checking for blind spots before committing
+
+**Features**:
+- Restates the decision first: what to decide, the options, the deadline, and what a good outcome looks like
+- Three mirrors written separately so they don't bias each other:
+  1. **Rational**: costs, benefits, risks, reversibility, and when the recommendation would flip
+  2. **What you really care about**: surface need → deeper need → core motivation, based only on what you've actually said
+  3. **Blind spots**: missing options, untested assumptions, long-term consequences, people not considered
+- Summary of where the mirrors agree and disagree, plus 1–3 questions or a low-cost experiment to help you decide
+- Never makes the decision for you
+
+**Example prompts**:
+- "Should I take this job offer or stay? Use super-mirror"
+- "I'm torn between option A and B — what am I not seeing?"
+- "Help me think through whether to launch this product now or wait"
+
+---
+
 ### Super Workflow
 
 **Best for**: End-to-end content production, multi-step writing tasks, quality-gated publishing
@@ -217,6 +238,22 @@ You can also add these prompts to:
 - "Search my Obsidian vault for notes about project planning"
 - "Append today's meeting summary to my daily note"
 - "Find orphan notes and help me organize them"
+
+---
+
+## How Super Interviewer, Super Mirror, and Super Analyst Work Together
+
+These three skills cover three stages of thinking and hand off to each other:
+
+| Stage | Skill | What it does |
+|-------|-------|--------------|
+| 1. Still unclear | **Super Interviewer** | The problem, goal, or options are fuzzy. Asks one question at a time until they're clear. |
+| 2. Clear, but can't decide | **Super Mirror** | The options are on the table. Writes the rational view, what you really care about, and the blind spots, then lays out where they disagree. |
+| 3. Need an evidence-based judgment | **Super Analyst** | Researches, applies frameworks, and gives a clear conclusion. |
+
+- Super Interviewer hands its summary (problem, options, deadline, what you care about) to Super Mirror when you're stuck between options, or to Super Analyst when you need research.
+- Super Mirror borrows Super Analyst's research methodology for the rational mirror, and Super Interviewer's needs excavation and Socratic questioning for the other two.
+- If the disagreement comes down to a fact, Super Mirror suggests Super Analyst; if it comes down to something you haven't figured out yet, it sends you back to Super Interviewer.
 
 ---
 

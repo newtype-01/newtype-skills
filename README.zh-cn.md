@@ -26,6 +26,7 @@
 | **[Super Fact-Checker](./skills/super-fact-checker/SKILL.md)** | 声明提取、事实核查、来源评估和修正文案 | 内容审核、来源验证、准确性保障 |
 | **[Super Editor](./skills/super-editor/SKILL.md)** | 修改已有内容并解释关键改动 | 草稿润色、可读性提升、一致性检查 |
 | **[Super Interviewer](./skills/super-interviewer/SKILL.md)** | 思路澄清、需求挖掘和苏格拉底式追问 | 头脑风暴、需求挖掘、深度探索 |
+| **[Super Mirror](./skills/super-mirror/SKILL.md)** | 从理性、内心、盲区三个角度照一个决定，摆出分歧，不替你拍板 | 难做的决定、几个选项拿不定、想知道自己哪里没想到 |
 | **[Super Workflow](./skills/super-workflow/SKILL.md)** | 带质量门控的可缩放内容生产流程 | Newsletter、报告、长文、分阶段内容生产 |
 | **[Super Workbench](./skills/super-workbench/SKILL.md)** | Skill 路由、任务恢复、checkpoint 和报告工作台 | Skill 选择、任务恢复、进度报告、多 Skill 接力 |
 | **[Super Obsidian](./skills/super-obsidian/SKILL.md)** | Obsidian CLI 优先的搜索、阅读与笔记管理操作 | 知识库检索、日记更新、反链梳理、笔记创建与维护 |
@@ -168,6 +169,26 @@
 
 ---
 
+### Super Mirror（三面镜子）
+
+**最适合**：难做的决定、几个选项之间拿不定主意、拍板前查查盲区
+
+**特点**：
+- 先把问题说清楚：要决定什么，有哪几个选项，期限是什么时候，什么结果算好
+- 三面镜子分开写，免得互相带偏：
+  1. **理性**：代价、收益、风险、能不能反悔，以及什么情况下推荐会反过来
+  2. **你心里真正在意的**：表面需求→深层需求→核心动机，只依据你自己说过的话
+  3. **盲区**：漏掉的选项、没验证过的假设、长远后果、没考虑进来的人
+- 最后说清三面镜子哪里一致、哪里打架，再给一到三个帮你拍板的问题，或一个低成本的小试验
+- 不替你做决定
+
+**示例提问**：
+- "这个工作机会要不要接？用super-mirror帮我看看"
+- "A和B我拿不定主意，我是不是哪里没想到？"
+- "这个产品现在上线还是再等等，帮我想想"
+
+---
+
 ### Super Workflow（超级工作流）
 
 **最适合**：端到端内容生产、多步骤写作任务、带质量门控的发布流程
@@ -217,6 +238,22 @@
 - "在我的 Obsidian vault 里搜索和项目规划相关的笔记"
 - "把今天的会议总结追加到今日日记"
 - "找出孤立笔记并帮我整理"
+
+---
+
+## 想清楚、拿主意、下判断：三个Skill怎么配合
+
+Super Interviewer、Super Mirror、Super Analyst各管思考的一个阶段，按顺序接力：
+
+| 阶段 | 技能 | 做什么 |
+|------|------|--------|
+| 1.还没想清楚 | **Super Interviewer** | 问题、目标、选项都还模糊。一次问一个问题，直到问清楚。 |
+| 2.想清楚了，但拿不定主意 | **Super Mirror** | 选项已经摆出来。分别写理性上该怎么做、你心里真正在意的、你可能没看到的，再把分歧摆出来。 |
+| 3.要一个有依据的判断 | **Super Analyst** | 调研、用框架分析，给出明确结论。 |
+
+- Super Interviewer聊完后，把总结好的问题、选项、期限和你在意的东西交出去：你在几个选项间犹豫，就交给Super Mirror；你要的是调研和结论，就交给Super Analyst。
+- Super Mirror的理性那面镜子，按Super Analyst的调研方法查数据；另外两面借用Super Interviewer的需求挖掘和苏格拉底式提问。
+- 如果分歧卡在某个事实上，Super Mirror会建议转Super Analyst去查清楚；如果卡在你自己还没想明白的事上，会建议回到Super Interviewer接着聊。
 
 ---
 

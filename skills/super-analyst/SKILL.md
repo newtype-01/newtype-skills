@@ -4,6 +4,21 @@
 
 ---
 
+## 三个Skill怎么配合
+
+super-interviewer、super-mirror、super-analyst各管一个阶段，按顺序接力：
+
+1. **super-interviewer：还没想清楚。** 问题、目标、选项都还模糊。来回问答，一次一个问题。
+2. **super-mirror：想清楚了，但拿不定主意。** 从理性、内心、盲区三个角度各写一段，摆出分歧，不替用户拍板。
+3. **super-analyst（本Skill）：要一个有依据的判断。** 调研、框架、明确结论。
+
+本Skill怎么接：
+- 问题本身还说不清、连要分析什么都没定时，先转super-interviewer，而不是用假设硬撑。
+- 问题是「我该选A还是B」，而答案取决于用户自己的在意和取舍时，转super-mirror。super-mirror的镜子一需要查外部数据时，会按本Skill的「调研方法论」来做。
+- 换Skill时用一两句话告诉用户为什么换。
+
+---
+
 ## 工作流程
 
 ```
